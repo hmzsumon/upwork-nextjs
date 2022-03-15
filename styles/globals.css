@@ -95,7 +95,7 @@ header {
         End Banner
 ==================== */
 .phone-input {
-	background: #e8f0fe;
+	background: #e5e7eb;
 	padding: 0 0.75rem;
 	border-radius: 0.25rem;
 	/* margin-bottom: 0.75rem; */
@@ -107,7 +107,7 @@ header {
 
 .phone-input input {
 	padding: 0.75rem 0;
-	background: #e8f0fe;
+	background: #e5e7eb;
 }
 
 .phone-input input:focus {
