@@ -14,7 +14,7 @@ const Banner = () => {
 						games, watching videos and more!
 					</p>
 				</div>
-				<Link href='/join'>
+				<Link href='/signup'>
 					<a className='py-4 px-8 bg-[#62A642] text-white text-xl uppercase rounded '>
 						Join Free Today
 					</a>

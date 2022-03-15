@@ -52,7 +52,7 @@ const Header = () => {
 					))}
 				</ul>
 				<div className='space-x-3 text-lg font-medium uppercase '>
-					<Link href='/join'>
+					<Link href='/signup'>
 						<a className='bg-[#62A642] hidden md:inline-block text-white px-4 py-1 rounded'>
 							Join
 						</a>
