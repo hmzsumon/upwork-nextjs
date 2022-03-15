@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Header */
+header {
+	z-index: 100;
+}
+
+.mobile-menu {
+	transform: translateX(-100%);
+	top: 75px;
+	transition: transform 0.3s ease-in-out;
+}
+.mobile-menu.is-active {
+	position: fixed;
+	transform: translateX(0);
+}
+/* Header */
+
+/* toggle btn */
+.toggler-menu {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	border-radius: 50%;
+	padding: 0;
+	/* background: #ff9301; */
+	border: none;
+	cursor: pointer;
+	margin-left: auto;
+}
+
+.toggler-menu span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 25px;
+	height: 3px;
+	margin: auto;
+	background: #fff;
+	color: #fff;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+.toggler-menu span {
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.toggler-menu span:nth-child(1) {
+	top: -17px;
+}
+
+.toggler-menu span:nth-child(2) {
+	top: 1.9px;
+	color: red;
+}
+
+.toggler-menu span:nth-child(3) {
+	top: auto;
+	bottom: 19px;
+}
+
+.toggler-menu .active span:nth-child(1) {
+	top: 0px;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.toggler-menu .active span:nth-child(2) {
+	left: 50%;
+	width: 0px;
+}
+
+.toggler-menu .active span:nth-child(3) {
+	top: 18px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+/* ====================
+   Start Banner
+==================== */
+.banner {
+	background: black url(../public/banner/bannerBG.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* ====================
+        End Banner
+==================== */
